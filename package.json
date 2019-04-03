@@ -1,0 +1,30 @@
+{
+  "name": "validator.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "babel-node src/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryOhh/validator.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryOhh/validator.js/issues"
+  },
+  "homepage": "https://github.com/henryOhh/validator.js#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
